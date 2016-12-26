@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "babel-runtime": "6.x",
+    "marked": "^0.3.6",
     "react": "15.x",
     "react-dom": "15.x"
   },
@@ -51,29 +52,7 @@
     "boilerplate"
   ],
   "author": "Ruan Yifeng",
-  "license": "MIT",
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run lint",
-      "commit-msg": "npm run lint:msg"
-    },
-    "validate-commit-msg": {
-      "types": [
-        "feat",
-        "fix",
-        "docs",
-        "style",
-        "refactor",
-        "perf",
-        "test",
-        "chore",
-        "revert"
-      ],
-      "warnOnFail": false,
-      "maxSubjectLength": 100
-    },
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    }
-  }
+  "license": "MIT"
+  
+  
 }
